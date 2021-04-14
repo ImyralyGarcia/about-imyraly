@@ -1,4 +1,73 @@
-#image {
-    width:500em;
-    height:200em;
+body {
+    background-color: black;
+    color: white;
+    background-image:url(image/image.boots.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.navigation nav ul li{
+    padding: 5px;
+}
+
+
+nav {
+    font-size: 1.2rem;
+    background-color: black;
+    height: 1.7em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul list {
+    cursor: pointer;
+    padding: 0.3rem;
+    flex: auto;
+    text-align: center;
+}
+
+
+nav ul li:hover{
+    background-color: dimgrey;
+
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+.pictureOfDogWalker {
+    margin-top: 4em;
+}
+
+.imagesItem1 {
+    display: flex;
+}
+
+.item1 ul li {
+    text-align: center;
+    font-size: 2em;
+    list-style-type: none;
+}
+
+.item1  p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.item2 {
+    font-size: 1.6em;
+}
+
+.item3 {
+    font-size: 1.6em;
 }
